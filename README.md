@@ -14,9 +14,11 @@ Solely looking at the AOV can be misleading as it will only give you a partial p
 
 1. The problem with this metric in this case is that it takes the average order amount and divides it by the amount of rows in the dataframe. This will cause outliers for transactions that contain mulitple items, thus skewing the initial analysis report. This metric does not consider how many items were purchased in each transaction. To resolve this problem we need to sum all order amounts and divide by the quantity of items in the order. This way, we are calculating the average price per item.
 
-2. Depending on the purpose of the anaysis there are a variety of metrics you could use. We may want to know which stores are the top 10 performing stores. This metric is helpful to determine which stores are performing the best. These top performers may have a very effective marketing strategy that could benefit other shops, these strategies could inlcude SEO optimization, promotions, and affiliate programs.
+2. Depending on the purpose of the anaysis there are a variety of metrics you could use. We may want to know which stores are the top 10 performing stores. This metric is helpful to determine which stores are performing the best. These top performers may have a very effective marketing strategy that could benefit other shops, these strategies could inlcude SEO optimization, promotions, and affiliate programs. We may also want to determine the most loyal customers and which shops they are coming from. This may provide us with insights for how these shops can manage client needs and expectations; these shops have the opportunity to tailor their customer experience and increase customer retention.
 
-3. 
+3. Below is an image displaying the top 10 performing stores
+
+![image info](./images/top10.png)
 
 ## Question 2:
 ### For this question you’ll need to use SQL. Follow this link to access the data set required for the challenge. Please use queries to answer the following questions. Paste your queries along with your final numerical answers below.
